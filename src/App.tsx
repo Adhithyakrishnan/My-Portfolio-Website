@@ -23,7 +23,7 @@ function App() {
               Data Analyst
             </h2>
             <p className="text-lg max-w-2xl text-gray-300">
-              Hello! I'm a passionate Data Analyst who loves turning raw data into meaningful stories. With a strong foundation in data science and a keen eye for detail, I specialize in uncovering insights that drive business decisions. My journey in data analysis has taught me that every dataset has a story to tell, and I'm here to help tell that story through powerful visualizations and actionable insights.
+              Hello! I'm a Data Analyst who loves turning raw data into meaningful stories. With a strong foundation in data science and a keen eye for detail, I specialize in uncovering insights that drive business decisions. My journey in data analysis has taught me that every dataset has a story to tell, and I'm here to help tell that story through powerful visualizations and actionable insights.
             </p>
             <div className="flex space-x-6 pt-4 justify-center md:justify-start">
               <a href="https://github.com/Adhithyakrishnan" className="hover:text-blue-400 transition-colors">
