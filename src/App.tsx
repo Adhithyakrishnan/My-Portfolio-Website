@@ -111,11 +111,7 @@ function App() {
                 alt="Coursera"
                 className="h-full object-contain"
               />
-              <img 
-                src="https://brand.ucdavis.edu/assets/uc-davis-logo-2/UC_Davis_Logo_Gold.png"
-                alt="UC Davis"
-                className="h-full object-contain ml-2"
-              />
+              
             </div>
             <h3 className="text-xl font-semibold mb-4">Data Visualization with Tableau</h3>
             <a 
@@ -135,11 +131,7 @@ function App() {
                 alt="Coursera"
                 className="h-full object-contain"
               />
-              <img 
-                src="https://brand.jhu.edu/assets/uploads/sites/5/2014/06/university.logo_.small_.blue_.png"
-                alt="Johns Hopkins University"
-                className="h-full object-contain ml-2"
-              />
+              
             </div>
             <h3 className="text-xl font-semibold mb-4">R Programming</h3>
             <a 
