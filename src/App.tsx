@@ -1,37 +1,47 @@
 import React from 'react';
 import { Github, Linkedin, Mail, ExternalLink, ChevronRight, Briefcase, GraduationCap, Phone, Twitter } from 'lucide-react';
+import myProfile from "./assets/profile.jpg"; // Adjust the filename if needed
 
 function App() {
   return (
     <div className="min-h-screen bg-[#0a0a0a] text-white">
       {/* Hero Section */}
       <div className="max-w-6xl mx-auto px-4 py-20">
-        <div className="space-y-6">
-          <h1 className="text-5xl md:text-7xl font-bold">
-            Hi, I'm Adhithya Krishnan
-          </h1>
-          <h2 className="text-2xl md:text-3xl text-gray-400">
-            Data Analyst
-          </h2>
-          <p className="text-lg max-w-2xl text-gray-300">
-            Hello! I'm a passionate Data Analyst who loves turning raw data into meaningful stories. With a strong foundation in data science and a keen eye for detail, I specialize in uncovering insights that drive business decisions. My journey in data analysis has taught me that every dataset has a story to tell, and I'm here to help tell that story through powerful visualizations and actionable insights.
-          </p>
-          <div className="flex space-x-6 pt-4">
-            <a href="https://github.com/Adhithyakrishnan" className="hover:text-blue-400 transition-colors">
-              <Github size={24} />
-            </a>
-            <a href="https://www.linkedin.com/in/adhithyakrishnan" className="hover:text-blue-400 transition-colors">
-              <Linkedin size={24} />
-            </a>
-            <a href="mailto:adhithyakrishnanmp@gmail.com" className="hover:text-blue-400 transition-colors">
-              <Mail size={24} />
-            </a>
-            <a href="https://x.com/AdhithyaKr37557" className="hover:text-blue-400 transition-colors">
-              <Twitter size={24} />
-            </a>
-            <a href="tel:7558877060" className="hover:text-blue-400 transition-colors">
-              <Phone size={24} />
-            </a>
+        <div className="flex flex-col md:flex-row items-center md:items-start gap-12">
+          <div className="w-48 h-48 rounded-full overflow-hidden flex-shrink-0 ring-4 ring-blue-500/20">
+            <img
+              src={myProfile}
+              alt="Profile"
+              className="w-full h-full object-cover"
+            />
+          </div>
+          <div className="space-y-6 text-center md:text-left">
+            <h1 className="text-5xl md:text-7xl font-bold">
+              Hi, I'm Adhithya Krishnan
+            </h1>
+            <h2 className="text-2xl md:text-3xl text-gray-400">
+              Data Analyst
+            </h2>
+            <p className="text-lg max-w-2xl text-gray-300">
+              Hello! I'm a passionate Data Analyst who loves turning raw data into meaningful stories. With a strong foundation in data science and a keen eye for detail, I specialize in uncovering insights that drive business decisions. My journey in data analysis has taught me that every dataset has a story to tell, and I'm here to help tell that story through powerful visualizations and actionable insights.
+            </p>
+            <div className="flex space-x-6 pt-4 justify-center md:justify-start">
+              <a href="https://github.com/Adhithyakrishnan" className="hover:text-blue-400 transition-colors">
+                <Github size={24} />
+              </a>
+              <a href="https://www.linkedin.com/in/adhithyakrishnan" className="hover:text-blue-400 transition-colors">
+                <Linkedin size={24} />
+              </a>
+              <a href="mailto:adhithyakrishnanmp@gmail.com" className="hover:text-blue-400 transition-colors">
+                <Mail size={24} />
+              </a>
+              <a href="https://x.com/AdhithyaKr37557" className="hover:text-blue-400 transition-colors">
+                <Twitter size={24} />
+              </a>
+              <a href="tel:7558877060" className="hover:text-blue-400 transition-colors">
+                <Phone size={24} />
+              </a>
+            </div>
           </div>
         </div>
       </div>
