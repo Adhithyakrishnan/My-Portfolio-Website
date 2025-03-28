@@ -7,25 +7,30 @@ function App() {
     <div className="min-h-screen bg-[#0a0a0a] text-white">
       {/* Hero Section */}
       <div className="max-w-6xl mx-auto px-4 py-20">
-        <div className="flex flex-col md:flex-row items-center md:items-start gap-12">
-          <div className="w-48 h-48 rounded-full overflow-hidden flex-shrink-0 ring-4 ring-blue-500/20">
+        <div className="flex flex-col md:flex-row-reverse items-center md:items-start gap-12 justify-between">
+          <div className="w-48 h-48 rounded-full overflow-hidden flex-shrink-0 ring-2 ring-[#4c6ef5]/30 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 p-0.5">
             <img
               src={myProfile}
               alt="Profile"
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover rounded-full"
             />
           </div>
-          <div className="space-y-6 text-center md:text-left">
-            <h1 className="text-5xl md:text-7xl font-bold">
-              Hi, I'm Adhithya Krishnan
-            </h1>
-            <h2 className="text-2xl md:text-3xl text-gray-400">
-              Data Analyst
-            </h2>
-            <p className="text-lg max-w-2xl text-gray-300">
-              Hello! I'm a Data Analyst who loves turning raw data into meaningful stories. With a strong foundation in data science and a keen eye for detail, I specialize in uncovering insights that drive business decisions. My journey in data analysis has taught me that every dataset has a story to tell, and I'm here to help tell that story through powerful visualizations and actionable insights.
+          <div className="space-y-6 text-left max-w-2xl">
+            <div className="space-y-2">
+              <h2 className="text-4xl font-normal">Hi, I'm</h2>
+              <h1 className="text-6xl md:text-7xl font-bold bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 text-transparent bg-clip-text">
+                Adhithya
+                <br />
+                Krishnan
+              </h1>
+              <h2 className="text-2xl md:text-3xl text-gray-400 mt-4">
+                Data Analyst
+              </h2>
+            </div>
+            <p className="text-lg text-gray-300">
+              Hello! I'm a passionate Data Analyst who loves turning raw data into meaningful stories. With a strong foundation in data science and a keen eye for detail, I specialize in uncovering insights that drive business decisions. My journey in data analysis has taught me that every dataset has a story to tell, and I'm here to help tell that story through powerful visualizations and actionable insights.
             </p>
-            <div className="flex space-x-6 pt-4 justify-center md:justify-start">
+            <div className="flex space-x-6 pt-4">
               <a href="https://github.com/Adhithyakrishnan" className="hover:text-blue-400 transition-colors">
                 <Github size={24} />
               </a>
