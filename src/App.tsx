@@ -28,7 +28,7 @@ function App() {
               </h2>
             </div>
             <p className="text-lg text-gray-300">
-              Hello! I'm a passionate Data Analyst who loves turning raw data into meaningful stories. With a strong foundation in data science and a keen eye for detail, I specialize in uncovering insights that drive business decisions. My journey in data analysis has taught me that every dataset has a story to tell, and I'm here to help tell that story through powerful visualizations and actionable insights.
+              Hi there! I'm a data analyst with a genuine passion for turning raw data into meaningful stories. With a solid background in data science and a sharp eye for detail, I love diving into datasets to uncover insights that can really make a difference in business decisions. Over time, I’ve learned that every dataset has its own unique story—and I’m here to bring those stories to life through clear visualizations and insights you can act on.
             </p>
             <div className="flex space-x-6 pt-4">
               <a href="https://github.com/Adhithyakrishnan" className="hover:text-blue-400 transition-colors">
